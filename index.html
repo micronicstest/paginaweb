@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge"
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--cambiar el nombre de la URL --> 
     <title>Página de canneli</title>
@@ -11,18 +12,19 @@
         align-items: center;
         margin: 0;
         font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-wrap: wrap;
       }
       .log {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding-top: 10px;
-        margin-right: 300px;
+        margin-right: 100px;
         margin-left: 50px;
       }
       .tabla1 {
-        display: flex;
-        padding-inline: 150px;
+        padding-inline: 110px;
         padding-top: 20px;
         padding-bottom: 20px;
         color: black;
@@ -41,9 +43,13 @@
       table {
         height: auto;
         display: block;
-        max-width: 100%;
+        max-width: 90%;
         border-collapse: collapse;
 
+      }
+      img {
+        max-width: 100%;
+        height: auto;
       }
       .primerac {
         margin-bottom: 0;
@@ -59,7 +65,7 @@
       }
     </style>
 </head>
-<body>
+<bod>
   <header>
     <div class="log">  
       <img src="img/loga2.jpg" class="logo" alt="Canneli">
